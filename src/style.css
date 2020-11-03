@@ -57,32 +57,34 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(145px, 1fr)) 175px 100px 80px;
     grid-template-rows: 30px;
+    grid-column-gap: 20px;
+    padding: 5px 0 10px 10px;
     background-color: rgba(0, 0, 0, 0.1);
     height: 30px;
     border-bottom: 1px solid black;
 }
 
 label {
-    margin: auto 0 auto 20px;
+    margin: auto 0;
 }
 
 .todo-form {
     display: grid;
     grid-template-columns: repeat(2, minmax(145px, 1fr)) 175px 100px 80px;
     grid-template-rows: 30px;
-    /* background-color: rgba(0, 0, 0, 0.05); */
-    padding: 5px 0;
+    grid-column-gap: 20px;
+    padding: 5px 0 10px 10px;
 }
 
 .input-field {
     height: 1.3rem;
-    margin: auto 0 auto 20px;
+    margin: auto 0;
 }
 
 .add-todo-button {
     width: 30px;
     height: 1.3rem;
-    margin: auto 0 auto 20px;
+    margin: auto 0;
     color: green;
     border: green solid 1.5px;
     border-radius: 3px;
@@ -91,20 +93,22 @@ label {
 .todo-item-div {
     display: grid;
     grid-template-columns: repeat(2, minmax(145px, 1fr)) 175px 100px 80px;
+    grid-column-gap: 20px;
     background-color: rgba(0, 0, 0, 0.05);
-    padding: 10px 0;
-    margin: 5px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid blue;
 }
 
 .todo-item {
     height: 1.3rem;
-    margin: auto 0 auto 20px;
+    margin: auto 0;
 }
 
 .delete-todo-button {
     width: 30px;
     height: 1.3rem;
-    margin: auto 0 auto 20px;
+    margin: auto 0;
     color: red;
     border: red solid 1.5px;
     border-radius: 3px;
