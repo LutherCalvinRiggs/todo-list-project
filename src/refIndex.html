@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    </head>
+
+    <body>
+        <div id="content-wrapper">
+            <div id="page-header-wrapper">
+                <h1 id="page-header" >Project List</h1>
+                <button type="button" class="new-project-button">New Project</button>
+            </div>
+            <div id="project-list-area">
+                <div id="${project.name}" class="project-block">
+    
+                    <div class="project-header">
+                        <h2 class="project-title">Title</h2>
+                        <button class="delete-project-button">Delete Project</button>
+                    </div>
+    
+                    <div class="todo-header-div">
+                        <label for="title">Title</label>
+                        <label for="description">Description</label>
+                        <label for="dueDate">Due Date</label>
+                        <label for="priority">Priority</label>
+                    </div>
+                
+                    <div class="todo-form">
+                        <input class="input-field" type="text" id="title" placeholder="Title" required>
+                        <input class="input-field" type="text" id="description" placeholder="Description">
+                        <input class="input-field" type="date" id="dueDate" placeholder="Due Date" required>
+                        <select class="input-field" id="priority" placeholder="Priority" required>
+                            <option value="None">None</option>
+                            <option value="Low">Low</option>
+                            <option value="High">High</option>
+                            <option value="Top">Top</option>
+                        </select>
+                        <button class="add-todo-button">+</button>
+                    </div>
+    
+                    <div class="todo-list">
+                        <div class="todo-div">
+                            <p class="todo-item todo-title">Test Title</p>
+                            <p class="todo-item todo-description">Test Description</p>
+                            <p class="todo-item todo-due-date">mm-dd-yyyy</p>
+                            <p class="todo-item todo-priority">Test Priority</p>
+                            <button class="todo-item delete-todo-button">-</button>
+                        </div>
+                        <div class="todo-div">
+                            <p class="todo-item todo-title">Test Title</p>
+                            <p class="todo-item todo-description">Test Description</p>
+                            <p class="todo-item todo-due-date">mm-dd-yyyy</p>
+                            <p class="todo-item todo-priority">Test Priority</p>
+                            <button class="todo-item delete-todo-button">-</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

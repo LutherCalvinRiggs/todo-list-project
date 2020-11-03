@@ -1,0 +1,17 @@
+{
+  "name": "todo-list-project",
+  "version": "1.0.0",
+  "description": "A todo list build with JavaScript, webpack, style-loader and css-loader.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -w"
+  },
+  "author": "Luther Calvin Riggs",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.1",
+    "webpack-cli": "^4.1.0"
+  }
+}
